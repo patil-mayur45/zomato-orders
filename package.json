@@ -1,0 +1,14 @@
+{
+  "name": "zomato-orders-pagination",
+  "version": "1.0.0",
+  "description": "Simple Node.js + MySQL server implementing paginated restaurant orders API",
+  "main": "server.js",
+  "scripts": {
+    "setup-db": "node createDatabase.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0"
+  }
+}
